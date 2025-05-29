@@ -7,7 +7,9 @@ const MEDIA_QUEUE_FILE = 'media_queue.json';
 const ACTIVE_CHATS_FILE = 'active_chats.json';
 const LOG_FILE = 'bot.log';
 
-logMessage("start file delele media", 'LOG');
+
+error_log('start file delele media');
+//logMessage("start file delele media", 'LOG');
 // Initialize Telegram bot
 $telegram = new Telegram(TOKEN, true);
 
