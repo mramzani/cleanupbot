@@ -8,7 +8,7 @@ const ACTIVE_CHATS_FILE = 'active_chats.json';
 const LOG_FILE = 'bot.log';
 
 
-error_log('start file delele media');
+error_log('log executed before fetch:' . time());
 //logMessage("start file delele media", 'LOG');
 // Initialize Telegram bot
 $telegram = new Telegram(TOKEN, true);
